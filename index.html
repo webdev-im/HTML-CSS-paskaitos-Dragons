@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My new title</title>
+    <link rel="stylesheet" href="/style.css" />
+    <style></style>
   </head>
   <body>
     <header>
@@ -96,19 +98,25 @@
       <input type="submit" value="Submit" />
     </form>
 
-    <h4>Mano megstama spalva</h4>
+    <h4 id="single">Mano megstama spalva</h4>
     <form action="">
-      <div>
+      <section>
         <input type="radio" name="colour" value="orange" />
         <label for="colour">Oranzine</label>
         <input type="radio" name="colour" value="blue" />
         <label for="colour">Melyna</label>
         <input type="radio" name="colour" value="white" />
         <label for="colour">White</label>
-      </div>
+      </section>
       <br />
       <input type="submit" />
       <input type="reset" />
     </form>
+    <!-- <div class="box">
+      <div class="small-box"></div>
+    </div> -->
+    <div class="sm-box violet"></div>
+    <div class="md-box red"></div>
+    <div class="lg-box turkey black-border"></div>
   </body>
 </html>

@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global selectors */
+
+li {
+  color: green;
+}
+
+/* classes */
+
+.box {
+  width: 400px;
+  height: 200px;
+  background-color: bisque;
+  border: 4px solid black;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.small-box {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(0, 76, 255);
+}
+
+/* box sizes */
+
+.sm-box {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+.md-box {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+.lg-box {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+/* background colors */
+
+.violet {
+  background-color: blueviolet;
+}
+.red {
+  background-color: red;
+}
+.turkey {
+  background-color: turquoise;
+}
+
+/* border classes */
+
+.black-border {
+  border: 2px solid black;
+}
+
+/* id */
+#single {
+  color: orange;
+}
