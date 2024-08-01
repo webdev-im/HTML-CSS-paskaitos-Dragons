@@ -31,38 +31,84 @@
     </ol>
 
     <!-- textarea -->
+    <!-- <div>
+      <textarea
+        name=""
+        id=""
+        rows="10"
+        cols="40"
+        placeholder="Palikite savo atsiliepima..."
+      ></textarea>
+      <br />
+      <button>Patvirtinti</button>
+      <br />
+      <br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2295.4175013668073!2d24.01004047713993!3d54.87803875902622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e73d5455f18847%3A0x95fc38b20152afbf!2sKaunas%20Reservoir%20Quay!5e0!3m2!1sen!2slt!4v1722525235730!5m2!1sen!2slt"
+        width="660"
+        height="200"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <br />
+      <br />
+      <iframe
+        width="660"
+        height="200"
+        src="https://www.youtube.com/embed/aKwkMZbeeGo?si=J044ZtX1_DpBEP03"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div> -->
 
-    <textarea
-      name=""
-      id=""
-      rows="10"
-      cols="40"
-      placeholder="Palikite savo atsiliepima..."
-    ></textarea>
-    <br />
-    <button>Patvirtinti</button>
-    <br />
-    <br />
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2295.4175013668073!2d24.01004047713993!3d54.87803875902622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e73d5455f18847%3A0x95fc38b20152afbf!2sKaunas%20Reservoir%20Quay!5e0!3m2!1sen!2slt!4v1722525235730!5m2!1sen!2slt"
-      width="660"
-      height="200"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
-    <br />
-    <br />
-    <iframe
-      width="660"
-      height="200"
-      src="https://www.youtube.com/embed/aKwkMZbeeGo?si=J044ZtX1_DpBEP03"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-    ></iframe>
+    <form action="">
+      <h4>Naujo nario forma</h4>
+      <label for="name">Vardas:</label>
+      <input type="text" id="name" name="name" required />
+      <br /><br />
+      <label for="surname">Pavarde:</label>
+      <input type="text" id="surname" name="surname" required />
+      <br /><br />
+      <label for="email">el pastas:</label>
+      <input type="email" id="email" name="email" required />
+      <br /><br />
+      <label for="age">amzius:</label>
+      <input type="number" id="age" name="age" required min="18" max="100" />
+      <br /><br />
+      <label for="dob">gimimo data:</label>
+      <input type="date" id="dob" name="dob" required />
+      <br /><br />
+      <label for="password">Slaptazodis:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+        minlength="8"
+      />
+      <br /><br />
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h4>Mano megstama spalva</h4>
+    <form action="">
+      <div>
+        <input type="radio" name="colour" value="orange" />
+        <label for="colour">Oranzine</label>
+        <input type="radio" name="colour" value="blue" />
+        <label for="colour">Melyna</label>
+        <input type="radio" name="colour" value="white" />
+        <label for="colour">White</label>
+      </div>
+      <br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
   </body>
 </html>
