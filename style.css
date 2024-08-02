@@ -27,6 +27,12 @@ li {
   background-color: rgb(0, 76, 255);
 }
 
+/* text styles */
+
+.bold {
+  font-weight: bold;
+}
+
 /* box sizes */
 
 .sm-box {
@@ -60,10 +66,113 @@ li {
 /* border classes */
 
 .black-border {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 /* id */
 #single {
   color: orange;
+}
+
+.card {
+  width: 400px;
+  height: 480px;
+}
+
+.square-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.rounded-btn {
+  height: 30px;
+  border-radius: 50px;
+  background-color: white;
+  padding: 0 15px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.rounded-btn:hover {
+  background-color: rgb(211, 211, 211);
+}
+
+.sm-icon {
+  height: 15px;
+}
+
+.md-icon {
+  height: 25px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.m-40 {
+  margin: 40px;
+}
+
+.rounded-20 {
+  border-radius: 20px;
+}
+
+/* positioning */
+
+.full-width {
+  min-width: 100%;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left {
+  left: 2%;
+}
+
+.top {
+  top: 2%;
+}
+
+.bottom {
+  bottom: 0%;
+}
+
+/* flexbox */
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.sm-gap {
+  gap: 5px;
+}
+
+.md-gap {
+  gap: 10px;
+}
+.opacity-5 {
+  opacity: 0.7;
 }

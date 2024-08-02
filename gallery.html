@@ -8,18 +8,24 @@
   </head>
   <body>
     <!-- card -->
-    <div>
-      <!-- image with button -->
-      <div>
+    <div class="card m-40">
+      <!-- image with button and dots -->
+      <div class="rounded-20 relative square-image">
         <!-- button and icon-->
-        <div>
-          <button>Guest favourite</button>
-          <img src="" alt="heart icon" />
+        <div class="absolute p-10 full-width flex justify-between">
+          <button class="rounded-btn">Guest favourite</button>
+          <img
+            class="md-icon"
+            src="https://i.postimg.cc/RVmcph49/heart.png"
+            alt="heart icon"
+          />
         </div>
         <!-- image -->
-        <div>
-          <img src="" alt="" />
-        </div>
+        <img
+          class="square-image rounded-20"
+          src="https://a0.muscache.com/im/pictures/miso/Hosting-908467148751946559/original/e900d6a2-977e-4aad-9e6b-df6c2eb5b041.jpeg?im_w=720"
+          alt=""
+        />
         <!-- dots -->
         <div>
           <div></div>
@@ -30,25 +36,29 @@
         </div>
       </div>
       <!-- card texts -->
-      <div>
+      <div class="flex flex-column sm-gap mt-10">
         <!-- Location and rating -->
-        <div>
-          <p>Salo, Finland</p>
+        <div class="flex justify-between align-center">
+          <p class="bold">Salo, Finland</p>
           <!-- star and rating -->
-          <div>
-            <div><img src="" alt="star" /></div>
+          <div class="flex align-center sm-gap">
+            <img
+              class="sm-icon"
+              src="https://i.postimg.cc/J4t1Lc1Q/star.png"
+              alt="star"
+            />
             <p>5.0</p>
           </div>
         </div>
         <!-- description and date -->
-        <div>
-          <p>Beach and ocean views</p>
-          <p>Aug 29 - Sep 3</p>
-        </div>
+
+        <p class="opacity-5">Beach and ocean views</p>
+        <p class="opacity-5">Aug 29 - Sep 3</p>
+
         <!-- price -->
-        <div>
-          <p>€</p>
-          <p>450</p>
+        <div class="flex sm-gap">
+          <p class="bold">€</p>
+          <p class="bold">450</p>
           <p>night</p>
         </div>
       </div>
